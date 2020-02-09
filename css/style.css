@@ -1,0 +1,9 @@
+.desnoPoravnajKraticu{
+    float: right;
+}
+.sakrij{
+    display:none;
+}
+.pas {
+    max-width:300px;
+}

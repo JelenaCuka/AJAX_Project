@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+   <script src="script.js"></script> 
+  <title>EMP</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+    <div class="container">
+      <a href="index.php" class="navbar-brand">EMP</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="main-header" class="py-2 bg-light text-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-4">
+            AJAX</h1>
+            <div class="row">
+                    <hr style="width: 90%">
+              </div>
+        </div>
+      </div
+            <!-- VERTICAL -->
+        <ul class="nav nav-pills flex-column bg-dark text-secondary">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="p1.html">Primjer 1 - Učitavanje HTML-a</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="p2.html">Primjer 2 - Učitavanje XML-a</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light"  href="p3.html">Primjer 3 - JSON, JQUERY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="p4.html">Primjer 4 - PHP</a>
+            </li>
+        </ul>
+
+
+
+    </div>
+  </header>
+
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="lead text-center">
+            Copyright &copy;
+            <span id="year"></span>
+            Jelena Čuka
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+
+</html>

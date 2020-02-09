@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dogs>
+  <dog>
+    <name>Bobi</name>
+    <slika>img/dog1.jpg</slika>
+  </dog>
+    <dog>
+    <name>Đuro</name>
+    <slika>img/dog2.jpg</slika>
+  </dog>
+  <dog>
+    <name>Bero</name>
+    <slika>img/dog3.jpg</slika>
+  </dog>
+</dogs>
